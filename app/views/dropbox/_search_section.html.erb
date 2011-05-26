@@ -1,0 +1,6 @@
+
+  <%= form_tag(dropbox_search_path, :method => "post") do %>
+    <%= label_tag(:q, "Search dropbox for keywords (comma separated):") %>
+    <%= text_field_tag(:q) %>
+    <%= submit_tag("Search") %>
+  <% end %>

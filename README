@@ -1,0 +1,10 @@
+Bundle Install
+
+Fire up rails server *rails server*
+
+Hit url http://localhost:3000/dropbox/authorize
+
+Once you have authorized (It'll only authorize against the account, which was used to issue it's consumer key and secret". Which means you can't really do
+much without changing the keys and secret to your account
+
+Search away. It does text search syncronously right now.

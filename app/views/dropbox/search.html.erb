@@ -1,0 +1,13 @@
+<html>
+
+  <%= render "search_section" %>
+
+  <br />
+  <% if @data.blank? %>
+    No content found
+  <% end%>
+  <% @data.each do |file| %>
+    <%= file.path %>
+    <br />
+  <% end %>  
+</html>
